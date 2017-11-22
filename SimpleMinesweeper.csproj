@@ -45,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game\GenerateIds.cs" />
+    <Compile Include="D:\MineSweeper\GenerateIds.cs">
+      <Link>Game\GenerateIds.cs</Link>
+    </Compile>
     <Compile Include="Persistence\Persistence.cs" />
     <Compile Include="Views\GameScreen.cs">
       <SubType>Form</SubType>
